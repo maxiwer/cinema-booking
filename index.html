@@ -9,6 +9,129 @@
 </head>
 
 <body>
+    <div class="movie-container">
+        <label for="movie">Выберите фильм:</label>
+        <select id="movie">
+            <!-- change below to put from JSON -->
+            <!-- after the name inside option tags, there's should be
+            their prices -->
+            <option value="4">Елки 45</option>
+            <option value="4">Бизнес по-казахски в Марсе</option>
+            <option value="5">Colloquium</option>
+            <option value="7">Marvel agents</option>
+        </select>
+    </div>
+
+    <ul class="showcase">
+        <li>
+            <div class="seat"></div>
+            <small>Свободно</small>
+        </li>
+        <li>
+            <div class="seat Selected"></div>
+            <small>Выбрано</small>
+        </li>
+        <li>
+            <div class="seat occupied"></div>
+            <small>Занято</small>
+        </li>
+    </ul>
+
+    <div class="container">
+        <div class="screen"></div>
+
+        <!-- 1-row -->
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <!-- 2-row -->
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <!-- 3-row -->
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <!-- 4-row -->
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <!-- 5-row -->
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <!-- 6-row -->
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <!-- 7-row -->
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <!-- 8-row -->
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+    </div>
+
+    <p class="text">Вы выбрали <span id="count">0</span> на сумму
+    $<span id="total-price">0</span></p>
 
     <script src="script.js"></script>
 </body>
